@@ -1,0 +1,6 @@
+[submodule "openssl"]
+	path = openssl
+	url = https://github.com/JESU20950/openssl
+[submodule "liboqs"]
+	path = liboqs
+	url = https://github.com/JESU20950/liboqs
