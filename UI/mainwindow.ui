@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>746</width>
+    <height>435</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="MainPanel">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="windowTitle">
+    <string>Form</string>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <property name="sizeConstraint">
+     <enum>QLayout::SetDefaultConstraint</enum>
+    </property>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>746</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuAlgorithm">
+    <property name="title">
+     <string>Algorithm</string>
+    </property>
+    <widget class="QMenu" name="menuCryptography">
+     <property name="title">
+      <string>Cryptography</string>
+     </property>
+     <addaction name="actionSignature"/>
+     <addaction name="actionEncryption"/>
+    </widget>
+    <widget class="QMenu" name="menuHash_2">
+     <property name="title">
+      <string>Hash</string>
+     </property>
+     <addaction name="actionmd5"/>
+     <addaction name="actionsha224"/>
+     <addaction name="actionsha3_256"/>
+     <addaction name="actionsha384"/>
+     <addaction name="actionsha256"/>
+    </widget>
+    <addaction name="menuHash_2"/>
+    <addaction name="actionData_compression"/>
+    <addaction name="menuCryptography"/>
+   </widget>
+   <widget class="QMenu" name="menuAbout">
+    <property name="title">
+     <string>Help</string>
+    </property>
+    <addaction name="actionAbout"/>
+   </widget>
+   <addaction name="menuAlgorithm"/>
+   <addaction name="menuAbout"/>
+  </widget>
+  <action name="actionData_compression">
+   <property name="text">
+    <string>Data compression</string>
+   </property>
+  </action>
+  <action name="actionSignature">
+   <property name="text">
+    <string>Signature</string>
+   </property>
+  </action>
+  <action name="actionEncryption">
+   <property name="text">
+    <string>Encryption</string>
+   </property>
+  </action>
+  <action name="actionmd5">
+   <property name="text">
+    <string>md5</string>
+   </property>
+  </action>
+  <action name="actionsha224">
+   <property name="text">
+    <string>sha224</string>
+   </property>
+  </action>
+  <action name="actionsha3_256">
+   <property name="text">
+    <string>sha3-256 </string>
+   </property>
+  </action>
+  <action name="actionsha384">
+   <property name="text">
+    <string>sha384</string>
+   </property>
+  </action>
+  <action name="actionAbout">
+   <property name="text">
+    <string>About</string>
+   </property>
+  </action>
+  <action name="actionsha256">
+   <property name="text">
+    <string>sha256</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

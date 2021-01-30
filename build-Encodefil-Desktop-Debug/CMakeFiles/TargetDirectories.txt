@@ -1,0 +1,4 @@
+/home/jesus/Desktop/Encodefil/build-Encodefil-Desktop-Debug/CMakeFiles/rebuild_cache.dir
+/home/jesus/Desktop/Encodefil/build-Encodefil-Desktop-Debug/CMakeFiles/edit_cache.dir
+/home/jesus/Desktop/Encodefil/build-Encodefil-Desktop-Debug/CMakeFiles/Encodefil.dir
+/home/jesus/Desktop/Encodefil/build-Encodefil-Desktop-Debug/CMakeFiles/Encodefil_autogen.dir
